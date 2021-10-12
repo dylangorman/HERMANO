@@ -1,0 +1,212 @@
+body {
+    background-color: #FAFF00;
+    font-family: "Bebas Neue";
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+
+.special {
+    background-image: url("Band1.png");
+    background-size: cover;
+    background-repeat:repeat-y;
+}
+
+.music {
+    /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000300), color-stop(100%, #FAFF00));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,#FAFF00 0%, #000300 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #FAFF00 0%, #000300 100%);
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#FAFF00), to(#000300));
+  background: linear-gradient(to bottom, #FAFF00 0%, #000300 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002f4b', endColorstr='#00000000', GradientType=0);
+  /* IE6-9 */ }
+
+background-image:hover {
+    opacity: 0.5;
+}
+
+#mainNavbar {
+    font-size: 2rem;
+    font-weight: 200;
+}
+.blurb h2 {
+    color: black;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+h4 {
+    color:#FF01FB
+}
+h4:hover{
+    color: black;
+    transform: rotateX(360deg);
+    transition: ease-in-out 2s;
+    
+}
+.blurb span{
+    font-size: 3rem;
+}
+.blurb span:hover{
+    color: #02A9EA;
+
+}
+.btn {
+    font-size: 1rem;
+    font-family: "Bebas Neue";
+    color: #02A9EA;
+}
+.blurb p {
+    color: #000300;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+#mainNavbar .navbar-toggler-icon {
+    color:#02A9EA;
+}
+
+#mainNavbar .nav-link {
+    color:#000300;
+}
+
+#mainNavbar .nav-link:hover{
+    color:#02A9EA;
+}
+#mainNavbar .navbar-brand {
+    color:black;
+}
+#mainNavbar .navbar-brand:hover{
+    color:#02A9EA;
+}
+
+#headingGroup span {
+    color: #FF01FB;
+}
+#headingGroup h1 {
+    color: black;
+    font-weight: 100;
+    font-size: 8rem;
+    transition: color 2s ease-in-out 3s;
+    
+}
+#headingGroup h1:hover{
+    color:#02A9EA;
+    /* transition: color 2s ease-in-out 3s; */
+}
+#headingGroup:hover span {
+    color: white;
+    /* transition: color 2s ease-in-out 3s; */
+}
+#headingGroup:hover{
+    color: #02A9EA;
+    transform: rotateY(360deg);
+    transition: ease-in-out 10s;
+    }
+
+#gameIntro h1 {
+    color: #FF01FB;
+}
+#gameIntro p{
+    color: #02A9EA;
+}
+.navbar.scrolled {
+    background: #FF01FB;
+    transition: background 500ms;
+    }
+#mainNavbar .nav-link {
+    font-weight: 200;
+    font-size: 2rem;
+    }
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+@media (max-width: 810px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 5rem;
+    }
+}
+/* screen size for mobile devices */
+@media screen and (max-width:480px){
+ 
+    #headingGroup h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:620px){
+    #mainNavbar .nav-link {
+        font-size:1.5rem;
+    }
+}
+
+footer {
+    font-family: "Bebas Neue", "sans-serif";
+    color: #000300;
+}
+
+
+.view {
+  height: 100%; }
+
+#mobile-box {
+  width: 1000px; }
+
+.gradient-card {
+  /* FF3.6+ */
+  background-image: "synth1.jpeg";
+}
+
+.card {
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+.card .view {
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card h2 a {
+  color: #FF01FB;
+}
+.card h2 a:hover {
+  color: #02A9EA;
+}
+
+#pButton {
+  float: left; }
+
+#timeline {
+  width: 90%;
+  height: 2px;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.3); }
+
+#pButton {
+  margin-top: 12px;
+  cursor: pointer; }
+
+#playhead {
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-top: -3px;
+  background: black;
+  cursor: pointer; }
