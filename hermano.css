@@ -150,9 +150,15 @@ h4:hover{
     }
 }
 
-footer {
+.footer {
     font-family: "Bebas Neue", "sans-serif";
     color: #000300;
+    font-size: 15px;
+    padding: 5px; margin: 0px;
+    border-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    left:0;
 }
 
 
